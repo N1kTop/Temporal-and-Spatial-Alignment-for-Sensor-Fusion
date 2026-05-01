@@ -1,0 +1,3 @@
+Model,Number of tracks,Average track length,Average speed
+Constant-velocity Kalman,41,5.585365853658536,1.0169054379805818
+Constant-acceleration Kalman,40,5.6,1.0261348679837057
