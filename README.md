@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project investigates how spatial and temporal alignment affect LiDAR–radar sensor fusion for autonomous vehicle perception using the nuScenes dataset.
+This project investigates how spatial and temporal alignment affect LiDAR-radar sensor fusion for autonomous vehicle perception using the nuScenes dataset.
 
 The work focuses on object-level fusion between LiDAR detections and radar measurements, with particular attention to:
 
