@@ -97,9 +97,9 @@ Example:
 
 ```python
 nusc = NuScenes(
-    version='v1.0-mini',
-    dataroot='your_dataset_path',
-    verbose=True
+    version = 'v1.0-mini',
+    dataroot = 'your_dataset_path',
+    verbose = True
 )
 ```
 
@@ -113,7 +113,7 @@ Main experiments include:
 * alignment correction experiments
 * multiframe fusion comparison
 
-These can be run through the provided notebook or Python scripts (there isn't any yet).
+These can be run through the provided notebook or Python scripts.
 
 ---
 
