@@ -53,6 +53,42 @@ This repository contains the main experimental code used for the dissertation:
 
 ---
 
+## Repository Structure
+
+```text
+Temporal-and-Spatial-Alignment-for-Sensor-Fusion/
+│
+├── src/
+│   ├── data_utils.py              # nuScenes scene, sample, and timestamp helpers
+│   ├── fusion.py                  # baseline LiDAR-radar object-level fusion
+│   ├── degradation.py             # spatial and temporal corruption functions
+│   ├── temporal_alignment.py      # timestamp pairing and offset correction tools
+│   ├── spatial_recovery.py        # spatial correction and grid-search scoring
+│   ├── tracking.py                # Kalman tracking and track-level metrics
+│   ├── multiframe.py              # multiframe and temporal-weighted fusion
+│   └── metrics.py                 # result summaries and table helpers
+│
+├── scripts/
+│   ├── run_project_demo.py        # quick check that the main pipeline runs
+│   └── run_results.py             # runs key methods and saves result tables
+│
+├── notebooks/
+│   ├── sensor_fusion_alignment.ipynb
+│   └── appendix.ipynb
+│
+├── results/
+│   └── generated result tables
+│
+├── report/
+│   └── dissertation/report PDF and appendix material
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
 ## Technologies Used
 
 * Python 3.11.9
@@ -82,7 +118,7 @@ Caesar, H. et al. (2020) *nuScenes: A Multimodal Dataset for Autonomous Driving*
 ### 1. Install dependencies
 
 ```bash
-pip install numpy pandas matplotlib nuscenes-devkit
+pip install -r requirements.txt
 ```
 
 ### 2. Download nuScenes dataset
